@@ -1,9 +1,184 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "artist": [
+        {
+            "id": 1,
+            "fullname": "Adele Laurie Blue",
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnttZCazV9oIuqs2ZBcFV0J9kLeovW73Q4IA&s",
+            "genre": "Pop",
+            "country": "UK",
+            "age": 35,
+            "info": "Adele is a Grammy-winning artist known for her soulful voice.",
+            "isVerified": true,
+            "songs": [
+                "Hello",
+                "Rolling in the Deep",
+                "Someone Like You"
+            ]
+        },
+        {
+            "id": 2,
+            "fullname": "Ed Sheeran",
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVITyXsC_v8GI0WoWIBu-y9MjQQmo169bpYw&s",
+            "genre": "Pop",
+            "country": "UK",
+            "age": 33,
+            "info": "Ed Sheeran is a renowned singer-songwriter with multiple hit albums.",
+            "isVerified": true,
+            "songs": [
+                "Shape of You",
+                "Perfect",
+                "Thinking Out Loud"
+            ]
+        },
+        {
+            "id": 3,
+            "fullname": "Taylor Swift",
+            "imgSrc": "https://people.com/thmb/hGBx2o9so78bb7NZQ_WWPGhBU8c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1045x501:1047x503)/Taylor-Swift-Reputation-081824-01-9c2cc19b358f42fbb8ae582b8e12c027.jpg",
+            "genre": "Country/Pop",
+            "country": "USA",
+            "age": 34,
+            "info": "Taylor Swift is a versatile artist blending country and pop music.",
+            "isVerified": true,
+            "songs": [
+                "Love Story",
+                "You Belong with Me",
+                "Anti-Hero"
+            ]
+        },
+        {
+            "id": 4,
+            "fullname": "Billie Eilish",
+            "imgSrc": "https://i.guim.co.uk/img/media/67944850a1b5ebd6a0fba9e3528d448ebe360c60/359_0_2469_1482/master/2469.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=03f3e07a7f367f36a738f1ad8132b3bb",
+            "genre": "Alternative",
+            "country": "USA",
+            "age": 22,
+            "info": "Billie Eilish is known for her unique sound and avant-garde style.",
+            "isVerified": true,
+            "songs": [
+                "Bad Guy",
+                "Ocean Eyes",
+                "Happier Than Ever"
+            ]
+        },
+        {
+            "id": 5,
+            "fullname": "Drake",
+            "imgSrc": "https://www.rollingstone.com/wp-content/uploads/2024/11/drake-on-xqc.jpg?w=1600&h=900&crop=1",
+            "genre": "Hip-Hop",
+            "country": "Canada",
+            "age": 37,
+            "info": "Drake is one of the world's most popular hip-hop artists.",
+            "isVerified": true,
+            "songs": [
+                "Hotline Bling",
+                "God's Plan",
+                "In My Feelings"
+            ]
+        },
+        {
+            "id": 6,
+            "fullname": "Beyoncé Knowles",
+            "imgSrc": "https://www.investopedia.com/thmb/MS7RErHbja0zz4HCRuU56zZrz7s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-2181093710-cd932de020334ca4a808dd238d0088d1.jpg",
+            "genre": "R&B",
+            "country": "USA",
+            "age": 42,
+            "info": "Beyoncé is a global icon known for her powerful performances.",
+            "isVerified": true,
+            "songs": [
+                "Halo",
+                "Single Ladies",
+                "Crazy in Love"
+            ]
+        },
+        {
+            "id": 7,
+            "fullname": "The Weeknd",
+            "imgSrc": "https://i.ytimg.com/vi/fHI8X4OXluQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDkvNyb9DIvJuwUcn0anv3POazJWg",
+            "genre": "R&B",
+            "country": "Canada",
+            "age": 34,
+            "info": "The Weeknd is a leading artist in the contemporary R&B scene.",
+            "isVerified": true,
+            "songs": [
+                "Blinding Lights",
+                "Save Your Tears",
+                "Starboy"
+            ]
+        },
+        {
+            "id": 8,
+            "fullname": "Shakira",
+            "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg/1200px-2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg",
+            "genre": "Pop/Latin",
+            "country": "Colombia",
+            "age": 47,
+            "info": "Shakira is a global superstar blending Latin and pop styles.",
+            "isVerified": true,
+            "songs": [
+                "Hips Don't Lie",
+                "Waka Waka",
+                "Whenever, Wherever"
+            ]
+        },
+        {
+            "id": 9,
+            "fullname": "Eminem",
+            "imgSrc": "https://imageio.forbes.com/specials-images/imageserve/6691410ebf58e316b3bd024e/0x0.jpg?format=jpg&crop=2885,2163,x0,y34,safe&height=900&width=1600&fit=bounds",
+            "genre": "Hip-Hop",
+            "country": "USA",
+            "age": 51,
+            "info": "Eminem is a legendary rapper with record-breaking albums.",
+            "isVerified": true,
+            "songs": [
+                "Lose Yourself",
+                "Rap God",
+                "Not Afraid"
+            ]
+        },
+        {
+            "id": 10,
+            "fullname": "Ariana Grande",
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiL5A7_p7GzmYu0pmlNV6tQdcpIaSEhreQZQ&s",
+            "genre": "Pop",
+            "country": "USA",
+            "age": 30,
+            "info": "Ariana Grande is a pop sensation with a powerful voice.",
+            "isVerified": true,
+            "songs": [
+                "Thank U, Next",
+                "Positions",
+                "Into You"
+            ]
+        },
+        {
+            "id": 11,
+            "fullname": "Bruno Mars",
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5aQ0WcnoQTiV3THdbJEBD0q-aPVR0qFDNWw&s",
+            "genre": "Pop/Funk",
+            "country": "USA",
+            "age": 39,
+            "info": "Bruno Mars is a versatile artist known for his upbeat music.",
+            "isVerified": true,
+            "songs": [
+                "Uptown Funk",
+                "Just the Way You Are",
+                "24K Magic"
+            ]
+        },
+        {
+            "id": 12,
+            "fullname": "Rihanna",
+            "imgSrc": "https://news24.az/uploads/posts/2024-04/1711555759_rihanna-net-worth-rihanna-billionaire.webp",
+            "genre": "R&B/Pop",
+            "country": "Barbados",
+            "age": 36,
+            "info": "Rihanna is a global icon in both music and fashion.",
+            "isVerified": true,
+            "songs": [
+                "Umbrella",
+                "Diamonds",
+                "Work"
+            ]
+        }
+    ]
 }
